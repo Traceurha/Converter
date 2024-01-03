@@ -18,7 +18,7 @@ const TemperatureConverter = () => {
       case 'Kelvin':
         result = temperature + 273.15;
         break;
-      // Diğer sıcaklık birimlerinin dönüşümleri buraya eklenmeli
+     
       default:
         result = temperature;
     }
